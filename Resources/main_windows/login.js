@@ -1,6 +1,6 @@
 var win = Titanium.UI.currentWindow;
 
-var pantalla = Titanium.UI.createView({
+var pantallas = Titanium.UI.createView({
 	backgroundImage: '/img/bg.png',
 	backgroundRepeat: true,
 	top:0,
