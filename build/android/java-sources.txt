@@ -1,0 +1,8 @@
+"C:/Users/Alf/Documents/smart/desarrollo/RadarFoodTruckAdmin/RadarFoodTruckAdmin/build/android/gen/android/support/v7/appcompat/R.java"
+"C:/Users/Alf/Documents/smart/desarrollo/RadarFoodTruckAdmin/RadarFoodTruckAdmin/build/android/gen/com/foodtruckadmin/ApplicationStylesheet.java"
+"C:/Users/Alf/Documents/smart/desarrollo/RadarFoodTruckAdmin/RadarFoodTruckAdmin/build/android/gen/com/foodtruckadmin/AssetCryptImpl.java"
+"C:/Users/Alf/Documents/smart/desarrollo/RadarFoodTruckAdmin/RadarFoodTruckAdmin/build/android/gen/com/foodtruckadmin/R.java"
+"C:/Users/Alf/Documents/smart/desarrollo/RadarFoodTruckAdmin/RadarFoodTruckAdmin/build/android/gen/com/foodtruckadmin/RadarFoodTruckAdminActivity.java"
+"C:/Users/Alf/Documents/smart/desarrollo/RadarFoodTruckAdmin/RadarFoodTruckAdmin/build/android/gen/com/foodtruckadmin/RadarFoodTruckAdminAppInfo.java"
+"C:/Users/Alf/Documents/smart/desarrollo/RadarFoodTruckAdmin/RadarFoodTruckAdmin/build/android/gen/com/foodtruckadmin/RadarFoodTruckAdminApplication.java"
+"C:/Users/Alf/Documents/smart/desarrollo/RadarFoodTruckAdmin/RadarFoodTruckAdmin/build/android/gen/ti/modules/titanium/ui/R.java"

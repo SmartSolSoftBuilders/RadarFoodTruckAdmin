@@ -32,7 +32,7 @@ var usuario = Titanium.UI.createLabel({
 	top:'10%',
 	color:'white',
 	text:'USUARIO',
-	font:{fontSize:12,fontFamily:'Helvetica Neue'},
+	font:{fontSize:7,fontFamily:'Helvetica Neue'},
 	width:'auto'
 });
 
@@ -50,7 +50,7 @@ var contrasena = Titanium.UI.createLabel({
 	top:'10%',
 	color:'white',
 	text:'CONTRASEÑA',
-	font:{fontSize:12,fontFamily:'Helvetica Neue'},
+	font:{fontSize:7,fontFamily:'Helvetica Neue'},
 	width:'auto'
 });
 var password = Titanium.UI.createTextField({
@@ -97,9 +97,9 @@ loginReq.onload = function()
         password.blur(); 
         Ti.App.fireEvent('grantEntrance', {
             name:response.name,
-            email:response.email,
-            latitud:response.latitud,
-            longitud:response.longitud
+            id:response.id,
+            
+            
         });
         win.close();
     }
@@ -121,10 +121,10 @@ loginBtn.addEventListener('click',function(e)
 {
 	if (username.value != '' && password.value != '')
 	{
-		loginReq.open("POST","http://yyx.zz.vc/post_auth.php");
+		loginReq.open("POST","http://s544443713.onlinehome.mx/truckAdmin/post_auth.php");
 		var params = {
 			username: username.value,
-			password: Ti.Utils.md5HexDigest(password.value)
+			password: password.value
 		};
 		loginReq.send(params);
 	}

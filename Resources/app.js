@@ -1,6 +1,7 @@
 Titanium.UI.setBackgroundColor('#fff');
 var tabGroup = Titanium.UI.createTabGroup();
 var main    = Titanium.UI.createWindow({
+	theme: "Theme.NoActionBar",
 });
 var mainTab = Titanium.UI.createTab();
 
@@ -15,16 +16,6 @@ var loginTab = Titanium.UI.createTab({
 	window:login
 });	
 
-var account = Titanium.UI.createWindow({
-    title:'New Account',
-    url:'main_windows/account.js'
-});
- 
-var accountTab = Titanium.UI.createTab({
-    title:'New Account',
-    window:account
-});
-
 
 tabGroup.addTab(loginTab);
 tabGroup.open();
@@ -35,12 +26,9 @@ Ti.App.addEventListener('grantEntrance', function(event)
     main.title      = 'CONTENIDO';
     main.url        = 'main_windows/main.js';
     main.name       = event.name;
-    main.email      = event.email;
-    main.longitud   = event.longitud;
-    main.latitud   = event.latitud;
+    main.id         = event.id;
     mainTab.window  = main;
      
     tabGroup.addTab(mainTab);
- 
     tabGroup.removeTab(loginTab);
 });

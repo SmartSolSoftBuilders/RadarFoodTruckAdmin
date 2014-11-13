@@ -2,7 +2,7 @@
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>com.foodtruckadmin</id>
     <name>Radar Food Truck Admin</name>
-    <version>1.0</version>
+    <version>4</version>
     <publisher>Emmarango</publisher>
     <url>http://www.smartsol.com.mx</url>
     <description/>
@@ -38,7 +38,9 @@
             </dict>
         </plist>
     </ios>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest android:versionCode="4" android:versionName="1.4"/>
+    </android>
     <mobileweb>
         <precache/>
         <splash>
